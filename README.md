@@ -7,7 +7,6 @@
 - [Constraints](#constraints)
 - [Domain (Define Problem)](#domain-define-problem)
 - [Actors of the System](#actors-of-the-system)
-- [Manage Time Use Case](#manage-time-use-case)
 - [Entities (Data Model)](#entities-data-model)
 - [Flowchart [Flow]](#flowchart-flow)
 - [Pseudocode](#pseudocode)
@@ -156,7 +155,7 @@ The domain for the Vacation Tracking System (VTS) is employee leave management w
 
 ## Flowchart [Flow]
 
-![VTS Main Flowchart](./flowchart-manage-time.PNG)
+![VTS Main Flowchart](./flowchart-manage-time.png)
 
 ---
 
