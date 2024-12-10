@@ -96,11 +96,8 @@ The domain for the Vacation Tracking System (VTS) is employee leave management w
 
 ---
 
-## Manage Time Use Case
 
 **Manage Time Use Case**
-
----
 
 ## Entities (Data Model)
 
