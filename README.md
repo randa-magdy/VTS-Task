@@ -156,8 +156,7 @@ The domain for the Vacation Tracking System (VTS) is employee leave management w
 
 ## Flowchart [Flow]
 
-*(Placeholder for the flowchart image or description)*
-
+![Flowchart Placeholder](path/to/Flowchart Manage Time.PNG)
 ---
 
 ## Pseudocode
