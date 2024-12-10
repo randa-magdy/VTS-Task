@@ -156,15 +156,64 @@ The domain for the Vacation Tracking System (VTS) is employee leave management w
 
 ## Flowchart [Flow]
 
-![Flowchart Placeholder](path/to/Flowchart Manage Time.PNG)
+![VTS Main Flowchart](./Flowchart Manage Time.png)
 ---
 
 ## Pseudocode
 
-*(Placeholder for pseudocode)*
+```plaintext
+Start
+    Employee Input Username and Password
+    IF (isAuthenticated?) 
+        THEN "Redirect to VTS HomePage"
+        THEN DISPLAY "Vacation Requests List"
+    ELSE 
+        DISPLAY "Error Message"
+    END IF
+    
+    IF (Employee Click Create New Request)
+        THEN DISPLAY New Request Form
+        THEN Employee INPUT Date, Time, Title, Description
+        IF (Validation Passed?)
+            THEN Employee SUBMIT Request
+        ELSE 
+            DISPLAY "Error Message"
+        END IF
+        IF (Require Manager Approval?)
+            THEN SEND Email to Manager
+            THEN Manager Reviews Request
+            IF (Manager Doesn't Approve Request?)
+                Employee ENTER Explanation 
+                THEN Employee SUBMIT Result
+            END IF
+            UPDATE Request Status
+            THEN SEND Email to Employee
+        ELSE
+            APPROVE Request Automatically
+    ELSE IF (Employee Click Edit for Selected Pending Request)
+        THEN OPEN Editable View
+        THEN Employee EDIT Title or Description or Dates
+        THEN Employee SUBMIT Changes
+        IF (Validation Passed?)
+            THEN UPDATE Request Data
+        ELSE 
+            DISPLAY "Error Message"
+        END IF
+    ELSE IF (Employee Click WITHDRAW for Selected Pending Request)
+        THEN SEND "Email to Manager"
+        THEN Update Request Status
+    ELSE IF (Employee Click CANCEL for Selected Approved Request)
+        IF (Not Future Request?)
+            Employee WRITE Explanation
+        END IF 
+        Employee CONFIRM Request
+        SEND "Email to Manager"
+        Update Request Status
+    END IF
+END
 
 ---
 
 ## Sequence Diagram
 
-*(Placeholder for the sequence diagram)*
+*(sequence diagram)*
