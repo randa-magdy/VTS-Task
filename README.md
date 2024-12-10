@@ -113,6 +113,7 @@ The domain for the Vacation Tracking System (VTS) is employee leave management w
 - `joinDate`
 - `balanceDays`
 - `status`
+- `locationId`
 
 ### 3. Role
 - `roleId`
