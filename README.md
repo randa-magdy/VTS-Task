@@ -209,8 +209,7 @@ Start
         Update Request Status
     END IF
 END
-
----
+```plaintext
 
 ## Sequence Diagram
 
