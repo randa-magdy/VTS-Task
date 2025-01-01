@@ -1,6 +1,6 @@
 # Vacation Tracking System (VTS) Task 
 
-### Table of Contents
+### `Table of Contents`
 - [Vision](#vision)
 - [Function](#function)
 - [Non-Function](#non-function)
