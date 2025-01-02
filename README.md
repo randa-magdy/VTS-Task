@@ -191,15 +191,15 @@ A visual representation of use cases and actors
 ## Manage Time Use Case 
 
 ### `Actors`  
--**Employee** 
--**Manager** 
-
-### Manage Time Use Case Flows  
-
+- **Employee** 
+- **Manager** 
+```diff
+### +Manage Time Use Case Flows  
+```
 ### `Main Flow : Create a New Vacation Request` 
 
 #### **Goal** : 
-	An Employee intends to submit a new vacation request. 
+An Employee intends to submit a new vacation request. 
 
 #### **Precondition** : 
 - **Authentication Completed**: 
