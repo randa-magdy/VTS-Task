@@ -16,7 +16,7 @@
 6. [Manage Time Use Case](#manage-time-use-case)  
    6.1. [Actors](#manage-time-use-case-actors)  
    6.2. [Manage Time Use Case Flows](#manage-time-use-case-flows)  
-          6.2.1. [Main Flow: Create a New Vacation Request](#main-flow-create-a-new-vacation-request)  
+          - [Main Flow: Create a New Vacation Request](#main-flow-create-a-new-vacation-request)  
           6.2.2. [Alternate Flow: Withdraw a Pending Vacation Request](#alternate-flow-withdraw-a-pending-vacation-request)  
           6.2.3. [Alternate Flow: Cancel an Approved Vacation Request](#alternate-flow-cancel-an-approved-vacation-request)  
           6.2.4. [Alternate Flow: Edit a Pending Vacation Request](#alternate-flow-edit-a-pending-vacation-request)  
