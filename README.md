@@ -72,53 +72,53 @@ The vision of the Vacation Tracking System (VTS) is to provide individual employ
 
 
 ### `Non-Functional Requirements`: 
--**Ease of Use**:  
+- **Ease of Use**:  
 	The system must be easy to use, intuitive, and intelligent to ensure user acceptance and successful implementation. 
--**Performance**:  
+- **Performance**:  
 	The system should streamline the vacation request process, reducing the time taken for approvals and minimizing manual interventions. 
--**Scalability**: 
+- **Scalability**: 
  	The system should be able to handle requests for the previous calendar year and up to a year and a half in the future. 
--**Security**:  
+- **Security**:  
 	The system must use the existing intranet portal’s single-sign-on mechanisms for authentication and ensure secure access to employee data. 
--**Reliability**: 
+- **Reliability**: 
 	 The system should keep activity logs for all transactions and provide mechanisms for HR and system administration personnel to override actions with proper logging. 
--**Integration**: 
+- **Integration**: 
  	The system must integrate with existing hardware, middleware, and HR department legacy systems. 
--**Maintainability**:  
+- **Maintainability**:  
 	The system should be designed to allow easy updates and management of rules by HR personnel. 
--**Email Notifications**:  
+- **Email Notifications**:  
 	The system should use email notifications to inform managers and employees about the status of vacation requests. 
--**Logging**:  
+- **Logging**:  
 	The system should maintain detailed logs of all transactions and overrides for auditing and troubleshooting purposes. 
 
 ### `Constraints`:  
--**Ease of Use**: 
+- **Ease of Use**: 
  	The system must be easy to use, intuitive, and intelligent to ensure it is accepted by end users. 
-  -**Existing Hardware and Middleware**:  
+- **Existing Hardware and Middleware**:  
 	The system must use existing hardware and middleware. 
-  -**Intranet Portal Integration**:  
+- **Intranet Portal Integration**:  
 	The VTS must be implemented as an extension to the existing intranet portal system and use the portal’s single-sign-on mechanisms for all authentication. 
-  -**Browser Compatibility**:  
+- **Browser Compatibility**:  
 	The application should behave properly on all standard HTML 3.2–capable browsers, ensuring no dependencies on specific browser versions or features. 
-  -**Client State Management**:  
+- **Client State Management**:  
 	The system must manage client state effectively in a connectionless environment, using mechanisms like cookies or URL redirection. 
-  -**Security**:  
+- **Security**:  
 	The system must ensure secure access, particularly through the use of the Central Authentication Service (CAS) for single-sign-on. 
-  -**Performance and Scalability**:  
+- **Performance and Scalability**:  
 	The system should be designed to handle performance and scalability requirements, including the potential use of a Web server farm and intelligent routing for load balancing. 
-  -**Rules-Based Validation**:  
+- **Rules-Based Validation**:  
 	The system must implement a flexible rules-based system for validating and verifying leave time requests. 
-  -**Manager Approval**:  
+- **Manager Approval**:  
 	The system should enable optional manager approval for vacation requests. 
-  -**Email Notifications**:  
+- **Email Notifications**:  
 	The system must use email notifications to request manager approval and notify employees of request status changes. 
-  -**Activity Logs**: 
+- **Activity Logs**: 
  	The system must keep activity logs for all transactions. 
-  -**HR and System Administration Overrides**:  
+- **HR and System Administration Overrides**:  
 	The system must allow HR and system administration personnel to override actions restricted by rules, with logging of those overrides. 
-  -**Web Service Interface**:  
+- **Web Service Interface**:  
 	The system must provide a Web service interface for other internal systems to query any given employee’s vacation request summary. 
-  -**Legacy System Integration**:  
+- **Legacy System Integration**:  
 	The system must interface with HR department legacy systems to retrieve required employee information and changes. 
 
 --- 
@@ -127,17 +127,13 @@ The vision of the Vacation Tracking System (VTS) is to provide individual employ
 
 The Vacation Tracking System (VTS) focuses on managing employee leave within a business organization. It addresses challenges managers face in tracking vacation time, sick leave, and personal time off, especially in workplaces with decentralized teams and multiple reporting managers. 
 
-###`Key Issues`: 
+### `Key Issues`: 
 
--	**Decentralized Work Environment**: 
-
-Employees work on different projects and report to various managers, making it hard to coordinate vacation schedules. 
-
--	**Manual Processes**: 
-
-Traditional leave management relies on manual approvals, causing delays and inefficiencies. 
-
--	**Lack of Awareness**: 
+- **Decentralized Work Environment**: 
+	Employees work on different projects and report to various managers, making it hard to coordinate vacation schedules. 
+  - **Manual Processes**: 
+	Traditional leave management relies on manual approvals, causing delays and inefficiencies. 
+  - **Lack of Awareness**: 
 
 Limited manager-employee interactions make it hard for managers to stay updated on vacation plans. 
 
