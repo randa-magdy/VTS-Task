@@ -45,29 +45,29 @@ The vision of the Vacation Tracking System (VTS) is to provide individual employ
 ## Requirements 
 
 ### `Functional Requirements`: 
--**Manage Time**:  
+- **Manage Time**:  
 	Employees can request, view, and cancel vacation time requests. 
--**Approve Request**:  
+- **Approve Request**:  
 	Managers can approve or deny subordinates' vacation time requests. 
--**Award Time**:  
+- **Award Time**:  
 	Managers can award extra leave time (comp time) to subordinates. 
- -**Edit Employee Record**:  
+ - **Edit Employee Record**:  
 	HR clerks can edit employee information, including leave time allowances and maximum time that can be awarded by managers. 
--**Manage Locations**:  
+- **Manage Locations**:  
 	HR clerks can manage location records and their associated rules. 
--**Manage Leave Categories**:  
+- **Manage Leave Categories**:  
 	HR clerks can manage leave categories and their associated rules. 
--**Override Leave Records**:  
+- **Override Leave Records**:  
 	HR clerks can override any rejection of leave time requests made by the system's rules. 
--**Back Up System Logs**:  
+- **Back Up System Logs**:  
 	System administrators can back up the system’s logs. 
--**Email Notifications**:  
+- **Email Notifications**:  
 	The system sends email notifications for manager approvals and status changes of requests. 
--**Activity Logging**:  
+- **Activity Logging**:  
         The system logs all transactions and overrides. 
--**Web Service Interface**:  
+- **Web Service Interface**:  
 	The system provides a web service interface for querying employee vacation request summaries. 
--**HR System Integration**:  
+- **HR System Integration**:  
 	The system interfaces with HR legacy systems to retrieve and update employee information. 
 
 
