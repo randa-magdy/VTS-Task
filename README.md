@@ -193,9 +193,9 @@ A visual representation of use cases and actors
 ### `Actors`  
 - **Employee** 
 - **Manager** 
-```diff
-+ ### Manage Time Use Case Flows  
-```
+
++ ### Manage Time Use Case Flows
+  
 ### `Main Flow : Create a New Vacation Request` 
 
 #### **Goal** : 
