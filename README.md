@@ -183,7 +183,9 @@ The Vacation Tracking System (VTS) focuses on managing employee leave within a b
 	- System administrators back up the system’s logs. 
 
 ### `Use Case Diagram` 
-A visual representation of use cases and actors 
+
+A visual representation of use cases and actors
+
 ![VTS Use Case Diagram](./use-case-diagram.png) 
 
 --- 
