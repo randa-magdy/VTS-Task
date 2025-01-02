@@ -191,9 +191,9 @@ A visual representation of use cases and actors
 
 ### Manage Time Use Case Flows
   
-### `Main Flow : Create a New Vacation Request` 
+### `A. Main Flow : Create a New Vacation Request` 
 
-#### **Goal** : 
+#### Goal : 
 An Employee intends to submit a new vacation request. 
 
 #### **Precondition** : 
@@ -236,7 +236,7 @@ An Employee intends to submit a new vacation request.
 - **Manager Workflow Concluded**: 
 	- The manager completes the review of the vacation request and is returned to the main VTS page for further actions or logout.
  
-### `Alternate Flow: Withdraw a Pending Vacation Request` 
+### `B. Alternate Flow: Withdraw a Pending Vacation Request` 
 
 #### **Goal** :  
 The Employee wishes to withdraw a pending vacation request. 
@@ -267,7 +267,7 @@ The Employee wishes to withdraw a pending vacation request.
  - **Notification Sent**: 
 	- The manager is notified via email about the withdrawal of the vacation request. 
 
-### `Alternate Flow: Cancel an Approved Vacation Request` 
+### `C. Alternate Flow: Cancel an Approved Vacation Request` 
 
 #### **Goal** : 
 The Employee wishes to cancel an approved vacation request. 
@@ -303,7 +303,7 @@ The Employee wishes to cancel an approved vacation request.
  - **System Updated**: 
 	- The VTS home page reflects the changes in the vacation request summaries and balances.  
 
-### `Alternate Flow: Edit a Pending Vacation Request` 
+### `D. Alternate Flow: Edit a Pending Vacation Request` 
 
 #### **Goal** : 
 The employee wants to update the details of a pending vacation request. 
