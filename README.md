@@ -16,16 +16,9 @@
 6. [Manage Time Use Case](#manage-time-use-case)  
    6.1. [Actors](#manage-time-use-case-actors)  
    6.2. [Manage Time Use Case Flows](#manage-time-use-case-flows)  
-          - [Main Flow: Create a New Vacation Request](#main-flow-create-a-new-vacation-request)  
-          6.2.2. [Alternate Flow: Withdraw a Pending Vacation Request](#alternate-flow-withdraw-a-pending-vacation-request)  
-          6.2.3. [Alternate Flow: Cancel an Approved Vacation Request](#alternate-flow-cancel-an-approved-vacation-request)  
-          6.2.4. [Alternate Flow: Edit a Pending Vacation Request](#alternate-flow-edit-a-pending-vacation-request)  
    6.3. [Data Model](#data-model)  
    6.4. [Pseudocode](#pseudocode)  
    6.5. [UML Diagrams](#uml-diagrams)  
-          6.5.1. [Sequence Diagram](#sequence-diagram)  
-          6.5.2. [Activity Diagram](#activity-diagram)  
-          6.5.3. [State Machine Diagram](#state-machine-diagram)  
    6.6. [UI Screens](#ui-screens) 
 ---
 
@@ -186,7 +179,7 @@ The Vacation Tracking System (VTS) focuses on managing employee leave within a b
 
 A visual representation of use cases and actors
 
-![VTS Use Case Diagram](./use-case-diagram.png) 
+![VTS Use Case Diagram](./uml-diagrams/use-case-diagram.png) 
 
 --- 
 
@@ -227,7 +220,7 @@ An Employee intends to submit a new vacation request.
  15. The manager returns to the VTS homepage to handle other tasks or log out. 
 
 #### **Flowchart**: 
-![VTS Create Request Flowchart](./flowchart-main-flow.png) 
+![VTS Create Request Flowchart](./flowcharts/flowchart-main-flow.png) 
 
 #### **Postcondition**: 
 - **Request Status Updated**: 
@@ -266,7 +259,7 @@ The Employee wishes to withdraw a pending vacation request.
  7. The system updates the request status to "withdrawn."
 
 #### **Flowchart**: 
-![VTS Withdraw Request Flowchart](./flowchart-withdraw-flow.png) 
+![VTS Withdraw Request Flowchart](./flowcharts/flowchart-withdraw-flow.png) 
 
 #### **Postcondition** : 
  - **Request Status Updated**: 
@@ -298,7 +291,7 @@ The Employee wishes to cancel an approved vacation request.
  6. The employee returns to the VTS home page, where updates are reflected in the summaries. 
 
 #### **Flowchart** : 
-![VTS Cancel Request Flowchart](./flowchart-cancel-flow.png) 
+![VTS Cancel Request Flowchart](./flowcharts/flowchart-cancel-flow.png) 
 
 #### **Postcondition** : 
  - **Request Status Updated**: 
@@ -334,7 +327,7 @@ The employee wants to update the details of a pending vacation request.
  8. If there are errors in the updates, the VTS highlights the issues and displays the editing form again for corrections. 
 
 #### **Flowchart** : 
-![VTS Edit Request Flowchart](./flowchart-edit-flow.png) 
+![VTS Edit Request Flowchart](./flowcharts/flowchart-edit-flow.png) 
 
 #### **Postcondition** : 
  - **Request Status Updated**: 
@@ -346,8 +339,8 @@ The employee wants to update the details of a pending vacation request.
 	- The VTS home page reflects the updated information, including the revised request or its removal if withdrawn. 
 	- If the request is withdrawn, the vacation time allowances are restored to the employee's available balance . 
 
-
-### Entities (Data Model)  
+---
+## Entities (Data Model)  
 1. **Location**: 
 	- locationId , name 
 2. **Employee**: 
@@ -363,7 +356,8 @@ The employee wants to update the details of a pending vacation request.
 7. **Restriction**: 
 	- restrictionId , categoryId , restrictionType , restrictionValue , description 
 
-### `Pseudocode` 
+---
+## Pseudocode 
 
 ```plaintext 
 
@@ -418,18 +412,20 @@ END
 
 ``` 
 
-### UML Diagrams 
+## UML Diagrams 
 
 ### `Sequence Diagram `: 
-![VTS Sequence Diagram](./sequesnce-diagram.png) 
+![VTS Sequence Diagram](./uml-diagrams/sequesnce-diagram.png) 
 
 ### `Activity Diagram` : 
-![VTS Avtivity Diagram](./activity-diagram.png) 
+![VTS Avtivity Diagram](./uml-diagrams/activity-diagram.png) 
 
 ### `State Machine Diagram` : 
-![VTS State Machine Diagram ](./state-machine-diagram.png) 
+![VTS State Machine Diagram ](./uml-diagrams/state-machine-diagram.png) 
 
-### `UI Screens` 
+---
+
+## UI Screens
 ![VTS UI Screens](./ui-screens.png) 
 
  
