@@ -29,7 +29,7 @@
    6.6. [UI Screens](#ui-screens) 
 ---
 
-##Vision  
+## Vision  
 
 The vision of the Vacation Tracking System (VTS) is to provide individual employees with the capability to manage their own vacation time, sick leave, and personal time off without needing to be experts in company policy or local facility leave policies. 
 
