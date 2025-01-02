@@ -313,7 +313,7 @@ The Employee wishes to cancel an approved vacation request.
 ### `Alternate Flow: Edit a Pending Vacation Request` 
 
 #### **Goal** : 
-	The employee wants to update the details of a pending vacation request. 
+The employee wants to update the details of a pending vacation request. 
 
 #### **Precondition** : 
  - **Authentication Completed**: 
