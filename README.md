@@ -1,56 +1,32 @@
-#Vacation Tracking System (VTS) 
+# Vacation Tracking System (VTS)
 
-## Content List 
+## Content List
 
-1. [Vision] (#vision) 
-
-2. [goal] (#goal) 
-
-3. [Requirements] (#requirements) 
-
-    3.1. [Functional Requirements] (# functional) 
-
-    3.2. [Non-Functional Requirements] (#non-functional) 
-
-    3.3. [Constraints] (#constraints) 
-
-4. [Domain (Define Problem)] (#domain) 
-
-5.[Use Case Model for the System] (#use-case-model-for-the-system) 
-
-    5.1. [Actors] (#actors) 
-
-    5.2. [Use cases] (#use-cases) 
-
-    5.3. [Use Case Diagram] (#use-case-diagram) 
-
-6.[Manage Time Use case:] (#manage-time-use-case) 
-
-    6.1. [Actors ] (#manage-time-use-case-actors) 
-
-    6.2. [Manage Time Use Case Flows] (#manage-time-use-case-flows) 
-
-        6.2.1. [Main Flow: Create a New Vacation Request] (#create-request) 
-    
-        6.2.2. [Alternate Flow: Withdraw a Pending Vacation Request] (#withdraw-request) 
-    
-        6.2.3. [Alternate Flow: Cancel an Approved Vacation Request] (#cancel-request) 
-    
-        6.2.4. [Alternate Flow: Edit a Pending Vacation Request] (#edit-request) 
-
-    6.3. [Data Model] (#data-model) 
-
-    6.4. [Pseudocode] (#pseudocode) 
-
-    6.5. [UML Diagrams] (#uml-diagrams) 
-
-        6.5.1. [Sequence Diagram] (#sequence-diagram) 
-        
-        6.5.2. [Activity Diagram] (#activity-diagram) 
-        
-        6.5.3. [State Machine Diagram] (#state-machine-diagram) 
-
-    6.6. [UI Screens] (#ui-screens) 
+1. [Vision](#vision)
+2. [Goal](#goal)
+3. [Requirements](#requirements)  
+   3.1. [Functional Requirements](#functional-requirements)  
+   3.2. [Non-Functional Requirements](#non-functional-requirements)  
+   3.3. [Constraints](#constraints)  
+4. [Domain (Define Problem)](#domain)
+5. [Use Case Model for the System](#use-case-model-for-the-system)  
+   5.1. [Actors](#actors)  
+   5.2. [Use Cases](#use-cases)  
+   5.3. [Use Case Diagram](#use-case-diagram)  
+6. [Manage Time Use Case](#manage-time-use-case)  
+   6.1. [Actors](#manage-time-use-case-actors)  
+   6.2. [Manage Time Use Case Flows](#manage-time-use-case-flows)  
+       6.2.1. [Main Flow: Create a New Vacation Request](#main-flow-create-a-new-vacation-request)  
+       6.2.2. [Alternate Flow: Withdraw a Pending Vacation Request](#alternate-flow-withdraw-a-pending-vacation-request)  
+       6.2.3. [Alternate Flow: Cancel an Approved Vacation Request](#alternate-flow-cancel-an-approved-vacation-request)  
+       6.2.4. [Alternate Flow: Edit a Pending Vacation Request](#alternate-flow-edit-a-pending-vacation-request)  
+   6.3. [Data Model](#data-model)  
+   6.4. [Pseudocode](#pseudocode)  
+   6.5. [UML Diagrams](#uml-diagrams)  
+       6.5.1. [Sequence Diagram](#sequence-diagram)  
+       6.5.2. [Activity Diagram](#activity-diagram)  
+       6.5.3. [State Machine Diagram](#state-machine-diagram)  
+   6.6. [UI Screens](#ui-screens) 
 ---
 
 ## Vision
