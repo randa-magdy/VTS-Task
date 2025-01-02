@@ -269,9 +269,9 @@ The Employee wishes to withdraw a pending vacation request.
 ![VTS Withdraw Request Flowchart](./flowchart-withdraw-flow.png) 
 
 #### **Postcondition** : 
- - Request Status Updated: 
+ - **Request Status Updated**: 
 	- The vacation request status is updated to "withdrawn" in the system, and it is removed from the manager’s list of pending approvals. 
- - Notification Sent: 
+ - **Notification Sent**: 
 	- The manager is notified via email about the withdrawal of the vacation request. 
 
 ### `Alternate Flow: Cancel an Approved Vacation Request` 
