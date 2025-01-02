@@ -191,10 +191,10 @@ A visual representation of use cases and actors
 ## Manage Time Use Case 
 
 ### `Actors`  
-- **Employee** 
-- **Manager** 
+- Employee
+- Manager 
 
-+ ### Manage Time Use Case Flows
+### Manage Time Use Case Flows
   
 ### `Main Flow : Create a New Vacation Request` 
 
@@ -207,7 +207,7 @@ An Employee intends to submit a new vacation request.
 - **Employee Identified**: 
 	- The employee is identified as a company employee with the privilege to manage their vacation requests. 
 
-### **Flow Steps** : 
+#### **Flow Steps** : 
  1. The employee clicks a link on the intranet portal to access the Vacation Tracking System (VTS). 
  2. The VTS verifies the employee's credentials and displays vacation request statuses and balances for the past 6 months and up to 18 months ahead. 
  3. To create a new request, the employee selects a vacation category with available balance. 
@@ -227,7 +227,7 @@ An Employee intends to submit a new vacation request.
 #### **Flowchart**: 
 ![VTS Create Request Flowchart](./flowchart-main-flow.png) 
 
-### **Postcondition**: 
+#### **Postcondition**: 
 - **Request Status Updated**: 
 	- The vacation request is either in an "approved," "rejected," or "pending approval" state, depending on the actions taken by the employee and manager. 
 - **Notification Sent**: 
@@ -295,7 +295,7 @@ An Employee intends to submit a new vacation request.
  5. The employee can cancel the process at any time without making changes. 
  6. The employee returns to the VTS home page, where updates are reflected in the summaries. 
 
-####**Flowchart** : 
+#### **Flowchart** : 
 ![VTS Cancel Request Flowchart](./flowchart-cancel-flow.png) 
 
 #### **Postcondition** : 
