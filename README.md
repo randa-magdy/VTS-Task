@@ -246,7 +246,7 @@ An Employee intends to submit a new vacation request.
 ### `Alternate Flow: Withdraw a Pending Vacation Request` 
 
 #### **Goal** :  
-	The Employee wishes to withdraw a pending vacation request. 
+The Employee wishes to withdraw a pending vacation request. 
   
 #### **Precondition** : 
 - **Authentication Completed**: 
@@ -277,7 +277,7 @@ An Employee intends to submit a new vacation request.
 ### `Alternate Flow: Cancel an Approved Vacation Request` 
 
 #### **Goal** : 
-	The Employee wishes to cancel an approved vacation request. 
+The Employee wishes to cancel an approved vacation request. 
  
 #### **Precondition** : 
  - **Authentication Completed**: 
