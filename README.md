@@ -81,9 +81,9 @@ The vision of the Vacation Tracking System (VTS) is to provide individual employ
 - **Security**:  
 	The system must use the existing intranet portal’s single-sign-on mechanisms for authentication and ensure secure access to employee data. 
 - **Reliability**: 
-	 The system should keep activity logs for all transactions and provide mechanisms for HR and system administration personnel to override actions with proper logging. 
+	 The system should keep activity logs for all transactions and provide mechanisms for HR and system administration personnel to override actions with proper 	         logging. 
 - **Integration**: 
- 	The system must integrate with existing hardware, middleware, and HR department legacy systems. 
+	The system must integrate with existing hardware, middleware, and HR department legacy systems. 
 - **Maintainability**:  
 	The system should be designed to allow easy updates and management of rules by HR personnel. 
 - **Email Notifications**:  
