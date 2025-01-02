@@ -37,8 +37,8 @@ The vision of the Vacation Tracking System (VTS) is to provide individual employ
 
 ## Most Important Goal  
 
-    The primary goal is to empower employees to manage this aspect of their employment agreements, streamline HR functions, and minimize non-core activities for management. 
-    The system aims to be easy to use, intuitive, and intelligent to ensure its success and acceptance by end users. 
+- The primary goal is to empower employees to manage this aspect of their employment agreements, streamline HR functions, and minimize non-core activities for management. 
+- The system aims to be easy to use, intuitive, and intelligent to ensure its success and acceptance by end users. 
     
 --- 
 
