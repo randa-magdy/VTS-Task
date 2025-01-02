@@ -59,7 +59,7 @@ The vision of the Vacation Tracking System (VTS) is to provide individual employ
 	HR clerks can manage leave categories and their associated rules. 
 - **Override Leave Records**:  
 	HR clerks can override any rejection of leave time requests made by the system's rules. 
-- **Back Up System Logs**:  
+- **Back-Up System Logs**:  
 	System administrators can back up the system’s logs. 
 - **Email Notifications**:  
 	The system sends email notifications for manager approvals and status changes of requests. 
@@ -82,10 +82,10 @@ The vision of the Vacation Tracking System (VTS) is to provide individual employ
 	The system must use the existing intranet portal’s single-sign-on mechanisms for authentication and ensure secure access to employee data. 
 - **Reliability**: 
 	 The system should keep activity logs for all transactions and provide mechanisms for HR and system administration personnel to override actions with proper 	         logging. 
+- **Maintainability**:  
+	The system should be designed to allow easy updates and management of rules by HR personnel.
 - **Integration**: 
 	The system must integrate with existing hardware, middleware, and HR department legacy systems. 
-- **Maintainability**:  
-	The system should be designed to allow easy updates and management of rules by HR personnel. 
 - **Email Notifications**:  
 	The system should use email notifications to inform managers and employees about the status of vacation requests. 
 - **Logging**:  
@@ -93,7 +93,7 @@ The vision of the Vacation Tracking System (VTS) is to provide individual employ
 
 ### `Constraints`:  
 - **Ease of Use**: 
- 	The system must be easy to use, intuitive, and intelligent to ensure it is accepted by end users. 
+The system must be easy to use, intuitive, and intelligent to ensure it is accepted by end users. 
 - **Existing Hardware and Middleware**:  
 	The system must use existing hardware and middleware. 
 - **Intranet Portal Integration**:  
