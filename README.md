@@ -340,7 +340,7 @@ The employee wants to update the details of a pending vacation request.
 	- If the request is withdrawn, the vacation time allowances are restored to the employee's available balance . 
 
 ---
-## Entities (Data Model)  
+## Data Model  
 1. **Location**: 
 	- locationId , name 
 2. **Employee**: 
